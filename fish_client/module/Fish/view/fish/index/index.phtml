@@ -1,0 +1,60 @@
+
+news<br/>
+<?php
+    foreach($newsData as $v){
+        echo $v->getNewsName() .'___';
+        echo $v->getNewsContent() .'___' ;
+        echo $v->getNewsEditor() .'___' ;
+        echo $v->getNewsDate() ;
+        echo '<br/>';
+    }
+?>
+
+<br/>
+<br/>
+notice<br/>
+<?php
+    foreach($noticeData as $v){
+        echo $v->getNoticeName().'___';
+        echo $v->getNoticeContent().'___';
+        echo $v->getNoticeEditor().'___';
+        echo $v->getNoticeDate();
+        echo '<br/>';
+        }
+?>
+<br/>
+article
+<br/>
+<?php
+foreach($articleData as $v){
+    echo $v->getArticleName().'___';
+    echo $v->getArticleContent().'___';
+    echo $v->getArticleEditor().'___';
+    echo $v->getArticleDate();
+    echo '<br/>';
+}
+?>
+
+<br/>
+food
+<br/>
+<?php
+foreach($foodData as $v){
+    echo $v->getFoodName().'___';
+    echo $v->getFoodIntro().'___';
+    echo $v->getFoodDate().'___';
+    echo '<br/>';
+}
+?>
+
+<br/>
+img
+<br/>
+<?php
+foreach($imgData as $v){
+    echo $v->getImgName().'___';
+    echo $v->getImgIntro().'___';
+    echo $v->getImgDate().'___';
+    echo '<br/>';
+}
+?>
