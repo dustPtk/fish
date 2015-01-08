@@ -9,15 +9,15 @@
 
 namespace Admin\Controller;
 
-use Admin\Form\AddNewsForm;
 use Admin\Form\AddNoticeForm;
+use Admin\Form\AddNewsForm;
 use Zend\Mvc\Controller\AbstractActionController;
 use Zend\Stdlib\Hydrator\ClassMethods;
 use News\Entity\News;
 use News\Entity\Notice;
 use News\Entity\Article;
 use News\Entity\Food;
-use News\Entity\Img;
+use News\Entity\CommonImg;
 use Api\Client\ApiClient as ApiClient;
 
 class IndexController extends AbstractActionController
@@ -77,7 +77,7 @@ class IndexController extends AbstractActionController
         if($responseImg !== FALSE){
             foreach($responseImg as $k => $v){
                 $hydrator = new ClassMethods();
-                $img[$k] = $hydrator->hydrate($v,new Img());
+                $img[$k] = $hydrator->hydrate($v,new CommonImg());
             }
         }else{
             $this->getResponse()->seStatusCOde(404);
@@ -120,7 +120,7 @@ class IndexController extends AbstractActionController
                 );
                 $responseNewsCre = ApiClient::createNews($data);
 
-                return $this->redirect()->toRoute('fish');
+                return $this->redirect()->toRoute('admin');
             }
         }
         return array('form'=>$form);

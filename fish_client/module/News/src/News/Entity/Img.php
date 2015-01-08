@@ -14,7 +14,7 @@ class Img{
     protected $img_intro;
     protected $img_url_max;
     protected $img_url_min;
-    protected $img_date;
+    protected $img_news_id;
 
     /**
      * @param mixed $id
@@ -30,22 +30,6 @@ class Img{
     public function getId()
     {
         return $this->id;
-    }
-
-    /**
-     * @param mixed $img_date
-     */
-    public function setImgDate($img_date)
-    {
-        $this->img_date = $img_date;
-    }
-
-    /**
-     * @return mixed
-     */
-    public function getImgDate()
-    {
-        return $this->img_date;
     }
 
     /**
@@ -81,6 +65,22 @@ class Img{
     }
 
     /**
+     * @param mixed $img_news_id
+     */
+    public function setImgNewsId($img_news_id)
+    {
+        $this->img_news_id = $img_news_id;
+    }
+
+    /**
+     * @return mixed
+     */
+    public function getImgNewsId()
+    {
+        return $this->img_news_id;
+    }
+
+    /**
      * @param mixed $img_url_max
      */
     public function setImgUrlMax($img_url_max)
@@ -111,6 +111,23 @@ class Img{
     {
         return $this->img_url_min;
     }
+
+    public function setFeed($feed)
+    {
+        $hydrator = new ClassMethods();
+        foreach ($feed as $entry) {
+            if (array_key_exists('status', $entry)) {
+                $this->feed[] = $hydrator->hydrate(
+                    $entry, new Status()
+                );
+            } else if (array_key_exists('filename', $entry)) {
+                $this->feed[] = $hydrator->hydrate(
+                    $entry, new Image()
+                );
+            }
+        }
+    }
+
 
 
 }

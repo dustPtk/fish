@@ -3,8 +3,9 @@ namespace Fish\Form;
 
 use Zend\Form\Element;
 use Zend\Form\Form;
+use Zend\InputFilter\InputFilterProviderInterface;
 
-class AddNewsForm extends Form
+class AddNewsForm extends Form implements InputFilterProviderInterface
 {
     public function __construct($name = null)
     {
@@ -45,10 +46,9 @@ class AddNewsForm extends Form
         ));
         $this->add(array(
         'name' => 'img',
-        'type'  => 'text',
+        'type'  => 'Zend\Form\Element\File',
         'attributes' => array(
             'class' => 'span11',
-            'placeholder' => 'img'
         ),
         ));
         $this->add(array(
@@ -67,5 +67,14 @@ class AddNewsForm extends Form
                 'class' => 'btn'
             ),
         ));
+    }
+
+    public function getInputFilterSpecification()
+    {
+        return array(
+            'img' => array(
+                'required' => true,
+            )
+        );
     }
 }

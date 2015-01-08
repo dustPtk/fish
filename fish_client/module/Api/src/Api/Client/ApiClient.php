@@ -154,8 +154,6 @@ class ApiClient {
         $response = $client->send();
 
         if (!empty($response)&&$response->isSuccess()) {
-//            var_dump($response->getBody());
-//            exit;
             return JsonDecoder::decode($response->getBody(), Json::TYPE_ARRAY);
         } else {
             $logger = new Logger;

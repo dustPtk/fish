@@ -6,6 +6,15 @@ news<br/>
         echo $v->getNewsContent() .'___' ;
         echo $v->getNewsEditor() .'___' ;
         echo $v->getNewsDate() ;
+        foreach($imgData as $v1){
+            if($v->getId()==$v1->getImgNewsId())
+            {
+                echo $v1->getImgName().'___';
+                echo $v1->getImgIntro();
+                echo '<br/>';
+                echo "<img src=\"".$v1->getImgUrlMax()."\">";
+            }
+        }
         echo '<br/>';
     }
 ?>
@@ -54,7 +63,7 @@ img
 foreach($imgData as $v){
     echo $v->getImgName().'___';
     echo $v->getImgIntro().'___';
-    echo $v->getImgDate().'___';
+    echo $v->getImgUrlMax();
     echo '<br/>';
 }
 ?>

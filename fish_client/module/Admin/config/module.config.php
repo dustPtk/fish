@@ -13,13 +13,13 @@ return array(
             'admin' => array(
                 'type' => 'Zend\Mvc\Router\Http\Segment',
                 'options' => array(
-                    'route'    => '/admin',
+                    'route'    => '/admin[/:action]',
                     'defaults' => array(
                         'controller' => 'Admin\Controller\Index',
                         'action'     => 'index',
                     ),
                 ),
-            )
+            ),
         ),
     ),
     'controllers' => array(
