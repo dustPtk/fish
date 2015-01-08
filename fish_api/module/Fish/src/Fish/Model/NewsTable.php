@@ -35,7 +35,7 @@ class NewsTable extends AbstractTableGateway implements AdapterAwareInterface{
 
     public function getNewsList()
     {
-        $rowSet = $this->select(array('news_status'=>1));
+        $rowSet = $this->select();
         return $rowSet;
     }
 

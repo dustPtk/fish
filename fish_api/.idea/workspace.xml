@@ -26,18 +26,16 @@
       <file leaf-file-name="module.config.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/module/Fish/config/module.config.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="28" column="38" selection-start="880" selection-end="880" vertical-scroll-proportion="-12.137931" vertical-offset="208" max-vertical-offset="3620">
-              <folding>
-                <element signature="e#6#83#0" expanded="true" />
-              </folding>
+            <state line="114" column="38" selection-start="3987" selection-end="3987" vertical-scroll-proportion="-13.5172415" vertical-offset="1788" max-vertical-offset="3520">
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="local.php" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/config/autoload/local.php">
+      <file leaf-file-name="ShowNewsController.php" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/module/Fish/src/Fish/Controller/ShowNewsController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="724">
+            <state line="29" column="9" selection-start="700" selection-end="700" vertical-scroll-proportion="0.46961325" vertical-offset="120" max-vertical-offset="1100">
               <folding />
             </state>
           </provider>
@@ -46,10 +44,8 @@
       <file leaf-file-name="ShowArticleController.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/module/Fish/src/Fish/Controller/ShowArticleController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="21" column="0" selection-start="446" selection-end="446" vertical-scroll-proportion="-11.034483" vertical-offset="0" max-vertical-offset="760">
-              <folding>
-                <element signature="e#115#165#0" expanded="true" />
-              </folding>
+            <state line="21" column="0" selection-start="446" selection-end="446" vertical-scroll-proportion="0.0" vertical-offset="420" max-vertical-offset="860">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -57,7 +53,7 @@
       <file leaf-file-name="SendNoticeController.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/module/Fish/src/Fish/Controller/SendNoticeController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="680">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="800">
               <folding />
             </state>
           </provider>
@@ -66,11 +62,8 @@
       <file leaf-file-name="ShowFoodController.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/module/Fish/src/Fish/Controller/ShowFoodController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="19" column="0" selection-start="366" selection-end="366" vertical-scroll-proportion="-9.103448" vertical-offset="116" max-vertical-offset="840">
-              <folding>
-                <element signature="e#6#85#0" expanded="true" />
-                <element signature="e#115#165#0" expanded="true" />
-              </folding>
+            <state line="19" column="0" selection-start="366" selection-end="366" vertical-scroll-proportion="0.0" vertical-offset="380" max-vertical-offset="840">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -78,16 +71,7 @@
       <file leaf-file-name="ShowImgController.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/module/Fish/src/Fish/Controller/ShowImgController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="24" column="5" selection-start="500" selection-end="500" vertical-scroll-proportion="-12.413794" vertical-offset="0" max-vertical-offset="620">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CommonImgTable.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/module/Fish/src/Fish/Model/CommonImgTable.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="27" column="23" selection-start="580" selection-end="580" vertical-scroll-proportion="-13.793103" vertical-offset="0" max-vertical-offset="1020">
+            <state line="27" column="57" selection-start="634" selection-end="634" vertical-scroll-proportion="-14.4827585" vertical-offset="0" max-vertical-offset="620">
               <folding />
             </state>
           </provider>
@@ -96,28 +80,35 @@
       <file leaf-file-name="SendNewsController.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/module/Fish/src/Fish/Controller/SendNewsController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="13" column="25" selection-start="275" selection-end="275" vertical-scroll-proportion="-4.827586" vertical-offset="0" max-vertical-offset="1560">
+            <state line="67" column="30" selection-start="2562" selection-end="2562" vertical-scroll-proportion="-25.51724" vertical-offset="480" max-vertical-offset="1560">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ArticleTable.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/module/Fish/src/Fish/Model/ArticleTable.php">
+      <file leaf-file-name="CommonImgTable.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/module/Fish/src/Fish/Model/CommonImgTable.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="13" column="81" selection-start="308" selection-end="308" vertical-scroll-proportion="-4.137931" vertical-offset="0" max-vertical-offset="960">
+            <state line="39" column="5" selection-start="913" selection-end="913" vertical-scroll-proportion="-15.862069" vertical-offset="180" max-vertical-offset="1020">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="FoodTable.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/module/Fish/src/Fish/Model/FoodTable.php">
+      <file leaf-file-name="SendImgController.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/module/Fish/src/Fish/Controller/SendImgController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="22" column="4" selection-start="472" selection-end="472" vertical-scroll-proportion="-10.4827585" vertical-offset="36" max-vertical-offset="1060">
-              <folding>
-                <element signature="e#108#136#0" expanded="true" />
-              </folding>
+            <state line="31" column="5" selection-start="876" selection-end="876" vertical-scroll-proportion="-12.793103" vertical-offset="129" max-vertical-offset="840">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DeleteNewsController.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/module/Fish/src/Fish/Controller/DeleteNewsController.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="740">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -143,22 +134,22 @@
         <option value="$PROJECT_DIR$/module/Fish/src/Fish/Model/CommonImgController.php" />
         <option value="$PROJECT_DIR$/module/Fish/src/Fish/Controller/DeleteNoticeController.php" />
         <option value="$PROJECT_DIR$/module/Fish/src/Fish/Controller/DeleteNewsController.php" />
-        <option value="$PROJECT_DIR$/module/Fish/src/Fish/Model/NewsTable.php" />
         <option value="$PROJECT_DIR$/module/Fish/src/Fish/Controller/SendNewsController.php" />
         <option value="$PROJECT_DIR$/module/Fish/src/Fish/Controller/SendNoticeController.php" />
         <option value="$PROJECT_DIR$/module/Fish/src/Fish/Model/NoticeTable.php" />
         <option value="$PROJECT_DIR$/module/Fish/src/Fish/Controller/SendFoodController.php" />
         <option value="$PROJECT_DIR$/module/Fish/src/Fish/Controller/SendImgController.php" />
         <option value="$PROJECT_DIR$/module/Fish/Module.php" />
-        <option value="$PROJECT_DIR$/module/Fish/src/Fish/Controller/ShowNewsController.php" />
         <option value="$PROJECT_DIR$/module/Fish/src/Fish/Controller/DeleteArticleController.php" />
         <option value="$PROJECT_DIR$/module/Fish/src/Fish/Model/ArticleTable.php" />
         <option value="$PROJECT_DIR$/module/Fish/src/Fish/Controller/ShowArticleController.php" />
         <option value="$PROJECT_DIR$/module/Fish/src/Fish/Controller/ShowFoodController.php" />
-        <option value="$PROJECT_DIR$/module/Fish/src/Fish/Model/ImgTable.php" />
         <option value="$PROJECT_DIR$/module/Fish/src/Fish/Model/CommonImgTable.php" />
         <option value="$PROJECT_DIR$/module/Fish/config/module.config.php" />
         <option value="$PROJECT_DIR$/module/Fish/src/Fish/Model/FoodTable.php" />
+        <option value="$PROJECT_DIR$/module/Fish/src/Fish/Model/NewsTable.php" />
+        <option value="$PROJECT_DIR$/module/Fish/src/Fish/Model/ImgTable.php" />
+        <option value="$PROJECT_DIR$/module/Fish/src/Fish/Controller/ShowNewsController.php" />
       </list>
     </option>
   </component>
@@ -451,7 +442,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="65" y="24" width="1535" height="876" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2495114" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -490,11 +481,30 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/module/Fish/src/Fish/Model/ImgTable.php">
+    <entry file="file://$PROJECT_DIR$/module/Fish/src/Fish/Controller/SendNewsController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="35" column="40" selection-start="847" selection-end="847" vertical-scroll-proportion="0.0" vertical-offset="700" max-vertical-offset="1360">
+        <state line="13" column="25" selection-start="275" selection-end="275" vertical-scroll-proportion="0.0" vertical-offset="260" max-vertical-offset="1680">
           <folding />
         </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/module/Fish/src/Fish/Model/ArticleTable.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="81" selection-start="308" selection-end="308" vertical-scroll-proportion="0.0" vertical-offset="260" max-vertical-offset="1100">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/module/Fish/src/Fish/Model/FoodTable.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="22" column="4" selection-start="472" selection-end="472" vertical-scroll-proportion="0.0" vertical-offset="440" max-vertical-offset="1160">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/module/Fish/src/Fish/Model/ImgTable.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="35" column="40" selection-start="847" selection-end="847" vertical-scroll-proportion="0.0" vertical-offset="700" max-vertical-offset="1360" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/module/Common/src/Common/Listeners/ApiErrorListener.php">
@@ -524,9 +534,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/data/db/fish.sql">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="0" selection-start="587" selection-end="587" vertical-scroll-proportion="0.0" vertical-offset="113" max-vertical-offset="840">
-          <folding />
-        </state>
+        <state line="26" column="0" selection-start="587" selection-end="587" vertical-scroll-proportion="0.0" vertical-offset="113" max-vertical-offset="840" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/module/Fish/src/Fish/Model/NewsTable.php">
@@ -536,9 +544,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/module/Fish/src/Fish/Model/ImgTable.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="24" selection-start="127" selection-end="127" vertical-scroll-proportion="0.0" vertical-offset="100" max-vertical-offset="220">
-          <folding />
-        </state>
+        <state line="10" column="24" selection-start="127" selection-end="127" vertical-scroll-proportion="0.0" vertical-offset="100" max-vertical-offset="220" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/module/Common/src/Common/Listeners/ApiErrorListener.php">
@@ -568,9 +574,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/data/db/fish.sql">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="0" selection-start="587" selection-end="587" vertical-scroll-proportion="0.0" vertical-offset="113" max-vertical-offset="840">
-          <folding />
-        </state>
+        <state line="26" column="0" selection-start="587" selection-end="587" vertical-scroll-proportion="0.0" vertical-offset="113" max-vertical-offset="840" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/module/Fish/src/Fish/Model/NewsTable.php">
@@ -580,9 +584,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/module/Fish/src/Fish/Model/ImgTable.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="16" selection-start="119" selection-end="119" vertical-scroll-proportion="0.0" vertical-offset="200" max-vertical-offset="320">
-          <folding />
-        </state>
+        <state line="10" column="16" selection-start="119" selection-end="119" vertical-scroll-proportion="0.0" vertical-offset="200" max-vertical-offset="320" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/module/Common/src/Common/Listeners/ApiErrorListener.php">
@@ -610,134 +612,55 @@
         <state line="25" column="1" selection-start="995" selection-end="995" vertical-scroll-proportion="-11.724138" vertical-offset="40" max-vertical-offset="1080" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/module/Fish/src/Fish/Model/NewsTable.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="58" column="0" selection-start="1436" selection-end="1436" vertical-scroll-proportion="0.8190608" vertical-offset="367" max-vertical-offset="1100" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/module/Fish/src/Fish/Model/NoticeTable.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="29" column="46" selection-start="781" selection-end="781" vertical-scroll-proportion="0.0" vertical-offset="580" max-vertical-offset="1120">
-          <folding />
-        </state>
+        <state line="29" column="46" selection-start="781" selection-end="781" vertical-scroll-proportion="0.0" vertical-offset="580" max-vertical-offset="1120" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/public/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="30" selection-start="400" selection-end="400" vertical-scroll-proportion="-8.965517" vertical-offset="0" max-vertical-offset="480">
-          <folding />
-        </state>
+        <state line="13" column="30" selection-start="400" selection-end="400" vertical-scroll-proportion="-8.965517" vertical-offset="0" max-vertical-offset="480" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/config/application.config.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="23" selection-start="618" selection-end="618" vertical-scroll-proportion="3.4482758" vertical-offset="420" max-vertical-offset="1420">
-          <folding />
-        </state>
+        <state line="16" column="23" selection-start="618" selection-end="618" vertical-scroll-proportion="3.4482758" vertical-offset="420" max-vertical-offset="1420" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/module/Fish/Module.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="0" selection-start="487" selection-end="487" vertical-scroll-proportion="0.56149733" vertical-offset="0" max-vertical-offset="748">
-          <folding />
-        </state>
+        <state line="26" column="0" selection-start="487" selection-end="487" vertical-scroll-proportion="0.56149733" vertical-offset="0" max-vertical-offset="748" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/module/Fish/src/Fish/Controller/DeleteImgController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="777">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="777" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/module/Fish/src/Fish/Controller/SendArticleController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="800">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="800" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/module/Fish/src/Fish/Controller/SendFoodController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="820">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/module/Fish/src/Fish/Controller/SendImgController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="840">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/module/Fish/src/Fish/Controller/DeleteNewsController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="753">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="820" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/module/Fish/src/Fish/Controller/DeleteFoodController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="777">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/module/Fish/src/Fish/Controller/ShowNewsController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="3" selection-start="9" selection-end="9" vertical-scroll-proportion="-0.6896552" vertical-offset="0" max-vertical-offset="1200">
-          <folding>
-            <element signature="e#6#83#0" expanded="true" />
-          </folding>
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="777" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/module/Fish/src/Fish/Controller/DeleteArticleController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="28" selection-start="314" selection-end="314" vertical-scroll-proportion="-7.862069" vertical-offset="92" max-vertical-offset="860">
-          <folding>
-            <element signature="e#6#78#0" expanded="true" />
-            <element signature="e#108#158#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/module/Fish/src/Fish/Model/ImgTable.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="5" selection-start="584" selection-end="584" vertical-scroll-proportion="0.46961325" vertical-offset="0" max-vertical-offset="940">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/module/Fish/src/Fish/Controller/ShowImgController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="24" column="5" selection-start="500" selection-end="500" vertical-scroll-proportion="-12.413794" vertical-offset="0" max-vertical-offset="620">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data/db/fish.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="78" column="0" selection-start="1899" selection-end="1899" vertical-scroll-proportion="1.8534851" vertical-offset="257" max-vertical-offset="1860">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/module/Fish/src/Fish/Controller/SendNewsController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="25" selection-start="275" selection-end="275" vertical-scroll-proportion="-4.827586" vertical-offset="0" max-vertical-offset="1560">
-          <folding />
-        </state>
+        <state line="16" column="28" selection-start="314" selection-end="314" vertical-scroll-proportion="-7.862069" vertical-offset="92" max-vertical-offset="860" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/module/Fish/src/Fish/Controller/ShowArticleController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="0" selection-start="446" selection-end="446" vertical-scroll-proportion="-11.034483" vertical-offset="0" max-vertical-offset="760">
-          <folding>
-            <element signature="e#115#165#0" expanded="true" />
-          </folding>
+        <state line="21" column="0" selection-start="446" selection-end="446" vertical-scroll-proportion="0.0" vertical-offset="420" max-vertical-offset="860">
+          <folding />
         </state>
       </provider>
     </entry>
@@ -750,56 +673,105 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/module/Fish/src/Fish/Model/ArticleTable.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="81" selection-start="308" selection-end="308" vertical-scroll-proportion="-4.137931" vertical-offset="0" max-vertical-offset="960">
+        <state line="13" column="81" selection-start="308" selection-end="308" vertical-scroll-proportion="0.0" vertical-offset="260" max-vertical-offset="1100">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/module/Fish/src/Fish/Controller/ShowFoodController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="0" selection-start="366" selection-end="366" vertical-scroll-proportion="-9.103448" vertical-offset="116" max-vertical-offset="840">
-          <folding>
-            <element signature="e#6#85#0" expanded="true" />
-            <element signature="e#115#165#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/module/Fish/src/Fish/Model/CommonImgTable.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="27" column="23" selection-start="580" selection-end="580" vertical-scroll-proportion="-13.793103" vertical-offset="0" max-vertical-offset="1020">
+        <state line="19" column="0" selection-start="366" selection-end="366" vertical-scroll-proportion="0.0" vertical-offset="380" max-vertical-offset="840">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/module/Fish/src/Fish/Model/FoodTable.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="4" selection-start="472" selection-end="472" vertical-scroll-proportion="-10.4827585" vertical-offset="36" max-vertical-offset="1060">
-          <folding>
-            <element signature="e#108#136#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/module/Fish/config/module.config.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="28" column="38" selection-start="880" selection-end="880" vertical-scroll-proportion="-12.137931" vertical-offset="208" max-vertical-offset="3620">
-          <folding>
-            <element signature="e#6#83#0" expanded="true" />
-          </folding>
+        <state line="22" column="4" selection-start="472" selection-end="472" vertical-scroll-proportion="0.0" vertical-offset="440" max-vertical-offset="1160">
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/config/autoload/global.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="33" column="0" selection-start="909" selection-end="909" vertical-scroll-proportion="0.6353591" vertical-offset="0" max-vertical-offset="724">
-          <folding />
-        </state>
+        <state line="33" column="0" selection-start="909" selection-end="909" vertical-scroll-proportion="0.6353591" vertical-offset="0" max-vertical-offset="724" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/config/autoload/local.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="724">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/module/Fish/src/Fish/Model/CommonImgTable.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="39" column="5" selection-start="913" selection-end="913" vertical-scroll-proportion="-15.862069" vertical-offset="180" max-vertical-offset="1020">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/module/Fish/src/Fish/Controller/DeleteNewsController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="740">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/db/fish.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="38" column="30" selection-start="899" selection-end="899" vertical-scroll-proportion="-8.86" vertical-offset="317" max-vertical-offset="1860">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/module/Fish/src/Fish/Controller/SendImgController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="31" column="5" selection-start="876" selection-end="876" vertical-scroll-proportion="-12.793103" vertical-offset="129" max-vertical-offset="840">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/module/Fish/src/Fish/Model/NewsTable.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="37" column="32" selection-start="973" selection-end="973" vertical-scroll-proportion="0.46961325" vertical-offset="300" max-vertical-offset="1200">
+          <folding>
+            <element signature="e#102#130#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/module/Fish/src/Fish/Model/ImgTable.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="29" column="5" selection-start="665" selection-end="665" vertical-scroll-proportion="-6.3448277" vertical-offset="216" max-vertical-offset="940">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/module/Fish/src/Fish/Controller/ShowImgController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="27" column="57" selection-start="634" selection-end="634" vertical-scroll-proportion="-14.4827585" vertical-offset="0" max-vertical-offset="620">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/module/Fish/src/Fish/Controller/SendNewsController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="67" column="30" selection-start="2562" selection-end="2562" vertical-scroll-proportion="-25.51724" vertical-offset="480" max-vertical-offset="1560">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/module/Fish/config/module.config.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="114" column="38" selection-start="3987" selection-end="3987" vertical-scroll-proportion="-13.5172415" vertical-offset="1788" max-vertical-offset="3520">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/module/Fish/src/Fish/Controller/ShowNewsController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="29" column="9" selection-start="700" selection-end="700" vertical-scroll-proportion="0.46961325" vertical-offset="120" max-vertical-offset="1100">
           <folding />
         </state>
       </provider>
