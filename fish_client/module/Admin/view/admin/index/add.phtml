@@ -1,17 +1,6 @@
-<?php
-/**
- * Created by PhpStorm.
- * User: hp
- * Date: 14-12-31
- * Time: 上午10:09
- */
+<?php $form = $this->form; ?>
+<?php $form->prepare(); ?>
+<?php echo $this->form()->openTag($form) ?>
+<?php echo $this->form($form); ?>
 
-$form = $this->form;
-$form->setAttribute('action',$this->url('admin',array('action'=>'add')));
-echo $this->form()->openTag($form);
-echo $this->formCollection($this->form);
-echo $this->form()->closeTag();
-
-
-?>
-
+<?php echo $this->form()->closeTag() ?>

@@ -23,19 +23,67 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="add.phtml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/module/Fish/view/fish/index/add.phtml">
+      <file leaf-file-name="IndexController.php" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/module/Admin/src/Admin/Controller/IndexController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="0" selection-start="107" selection-end="179" vertical-scroll-proportion="-2.7586207" vertical-offset="0" max-vertical-offset="360">
+            <state line="107" column="32" selection-start="3243" selection-end="3243" vertical-scroll-proportion="0.6469761" vertical-offset="1680" max-vertical-offset="6300">
+              <folding>
+                <element signature="e#6#328#0" expanded="true" />
+                <element signature="e#359#391#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Img.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/module/News/src/News/Entity/Img.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="21" column="30" selection-start="345" selection-end="345" vertical-scroll-proportion="-11.034483" vertical-offset="0" max-vertical-offset="2680">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AddNewsForm.php" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/module/Admin/src/Admin/Form/AddNewsForm.php">
+      <file leaf-file-name="ApiClient.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/module/Api/src/Api/Client/ApiClient.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="57" column="36" selection-start="1641" selection-end="1641" vertical-scroll-proportion="0.3314917" vertical-offset="900" max-vertical-offset="1720">
+            <state line="122" column="5" selection-start="3404" selection-end="3404" vertical-scroll-proportion="-13.931034" vertical-offset="1936" max-vertical-offset="3680">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.phtml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/module/Fish/view/fish/index/index.phtml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="60" column="17" selection-start="1210" selection-end="1210" vertical-scroll-proportion="-16.689655" vertical-offset="716" max-vertical-offset="1520">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CommonImg.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/module/News/src/News/Entity/CommonImg.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="17" column="0" selection-start="277" selection-end="277" vertical-scroll-proportion="-8.275862" vertical-offset="0" max-vertical-offset="2340">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="add-common-img.phtml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/module/Admin/view/admin/index/add-common-img.phtml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="220">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AddCommonImgForm.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/module/Admin/src/Admin/Form/AddCommonImgForm.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="31" column="26" selection-start="834" selection-end="834" vertical-scroll-proportion="-13.103448" vertical-offset="240" max-vertical-offset="1280">
               <folding>
                 <element signature="e#29#51#0" expanded="true" />
               </folding>
@@ -43,13 +91,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="add.phtml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/module/Admin/view/admin/index/add.phtml">
+      <file leaf-file-name="Food.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/module/News/src/News/Entity/Food.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="15" column="2" selection-start="294" selection-end="294" vertical-scroll-proportion="-10.344828" vertical-offset="0" max-vertical-offset="460">
-              <folding>
-                <element signature="e#6#84#0" expanded="true" />
-              </folding>
+            <state line="94" column="5" selection-start="1582" selection-end="1582" vertical-scroll-proportion="-28.275862" vertical-offset="960" max-vertical-offset="2320">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -57,49 +103,7 @@
       <file leaf-file-name="IndexController.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/module/Fish/src/Fish/Controller/IndexController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="16" column="23" selection-start="548" selection-end="548" vertical-scroll-proportion="24.689655" vertical-offset="916" max-vertical-offset="2120">
-              <folding>
-                <marker date="1420707281951" expanded="true" signature="2636:3005" placeholder="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AddNewsForm.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/module/Fish/src/Fish/Form/AddNewsForm.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="78" column="5" selection-start="1928" selection-end="2101" vertical-scroll-proportion="-19.448277" vertical-offset="996" max-vertical-offset="1720">
-              <folding>
-                <element signature="e#28#50#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="IndexController.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/module/Admin/src/Admin/Controller/IndexController.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="122" column="56" selection-start="4004" selection-end="4004" vertical-scroll-proportion="-20.0" vertical-offset="1740" max-vertical-offset="3220">
-              <folding>
-                <element signature="e#359#388#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AddNoticeForm.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/module/Admin/src/Admin/Form/AddNoticeForm.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="3" column="4" selection-start="33" selection-end="33" vertical-scroll-proportion="-0.6896552" vertical-offset="40" max-vertical-offset="1360">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="module.config.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/module/Fish/config/module.config.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="15" column="35" selection-start="552" selection-end="564" vertical-scroll-proportion="-6.206897" vertical-offset="0" max-vertical-offset="740">
+            <state line="16" column="26" selection-start="565" selection-end="586" vertical-scroll-proportion="-6.8965516" vertical-offset="0" max-vertical-offset="2100">
               <folding />
             </state>
           </provider>
@@ -108,16 +112,7 @@
       <file leaf-file-name="index.phtml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/module/Admin/view/admin/index/index.phtml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="57" column="17" selection-start="1058" selection-end="1058" vertical-scroll-proportion="-23.586206" vertical-offset="456" max-vertical-offset="1360">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="module.config.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/module/Admin/config/module.config.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="15" column="50" selection-start="568" selection-end="568" vertical-scroll-proportion="-6.206897" vertical-offset="0" max-vertical-offset="680">
+            <state line="55" column="33" selection-start="1013" selection-end="1013" vertical-scroll-proportion="-37.931034" vertical-offset="0" max-vertical-offset="1420">
               <folding />
             </state>
           </provider>
@@ -156,7 +151,6 @@
         <option value="$PROJECT_DIR$/module/Admin/view/fish/index/index.phtml" />
         <option value="$PROJECT_DIR$/module/Fish/config/module.config.php" />
         <option value="$PROJECT_DIR$/module/Admin/Module.php" />
-        <option value="$PROJECT_DIR$/module/Admin/src/Admin/Form/AddNoticeForm.php" />
         <option value="$PROJECT_DIR$/module/Admin/src/Admin/Form/TextStatusForm.php" />
         <option value="$PROJECT_DIR$/config/application.config.php" />
         <option value="$PROJECT_DIR$/public/css/style.css" />
@@ -164,27 +158,34 @@
         <option value="$PROJECT_DIR$/public/js/html5.js" />
         <option value="$PROJECT_DIR$/public/js/bootstrap.min.js" />
         <option value="$PROJECT_DIR$/module/Fish/view/layout/layout.phtml" />
-        <option value="$PROJECT_DIR$/module/Api/src/Api/Client/ApiClient.php" />
-        <option value="$PROJECT_DIR$/module/Fish/src/Fish/Form/AddNewsForm.php" />
         <option value="$PROJECT_DIR$/module/News/src/News/Entity/FishImg.php" />
         <option value="$PROJECT_DIR$/module/News/src/News/Entity/CommonImg.php" />
-        <option value="$PROJECT_DIR$/module/Fish/view/fish/index/index.phtml" />
         <option value="$PROJECT_DIR$/module/News/src/News/Entity/Img.php" />
-        <option value="$PROJECT_DIR$/module/Fish/src/Fish/Controller/IndexController.php" />
         <option value="$PROJECT_DIR$/module/Admin/config/module.config.php" />
-        <option value="$PROJECT_DIR$/module/Admin/view/admin/index/index.phtml" />
+        <option value="$PROJECT_DIR$/module/Fish/src/Fish/Form/AddNewsForm.php" />
+        <option value="$PROJECT_DIR$/vendor/ZF2/library/Zend/Form/Element/File.php" />
+        <option value="$PROJECT_DIR$/vendor/ZF2/library/Zend/File/Transfer/Adapter/Http.php" />
         <option value="$PROJECT_DIR$/module/Admin/view/admin/index/add.phtml" />
-        <option value="$PROJECT_DIR$/module/Admin/src/Admin/Controller/IndexController.php" />
+        <option value="$PROJECT_DIR$/module/Admin/view/admin/index/add-notice.phtml" />
         <option value="$PROJECT_DIR$/module/Admin/src/Admin/Form/AddNewsForm.php" />
+        <option value="$PROJECT_DIR$/module/Admin/src/Admin/Form/AddNoticeForm.php" />
+        <option value="$PROJECT_DIR$/module/Admin/src/Admin/Form/AddArticleForm.php" />
+        <option value="$PROJECT_DIR$/module/Admin/src/Admin/Form/AddFoodForm.php" />
+        <option value="$PROJECT_DIR$/module/Admin/src/Admin/Form/AddCommonImgForm.php" />
+        <option value="$PROJECT_DIR$/module/Api/src/Api/Client/ApiClient.php" />
+        <option value="$PROJECT_DIR$/module/Fish/view/fish/index/index.phtml" />
+        <option value="$PROJECT_DIR$/module/Admin/view/admin/index/index.phtml" />
+        <option value="$PROJECT_DIR$/module/Fish/src/Fish/Controller/IndexController.php" />
+        <option value="$PROJECT_DIR$/module/Admin/src/Admin/Controller/IndexController.php" />
       </list>
     </option>
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
     <option name="x" value="65" />
-    <option name="y" value="-4" />
+    <option name="y" value="24" />
     <option name="width" value="1535" />
-    <option name="height" value="904" />
+    <option name="height" value="876" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -258,7 +259,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="js" />
+              <option name="myItemId" value="images" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -279,6 +280,10 @@
               <option name="myItemId" value="images" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="upload" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -294,7 +299,33 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="css" />
+              <option name="myItemId" value="images" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="food" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="fish_client" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="fish_client" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="public" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="images" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="commonImg" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -420,59 +451,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Form" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="fish_client" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="fish_client" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="module" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Fish" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Fish" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="Controller" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="fish_client" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="fish_client" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="module" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Fish" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="config" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -682,6 +661,24 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="tmp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="fish_client" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="fish_client" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="data" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="logs" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -739,15 +736,18 @@
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../fish_api" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../ptk/zf2/2100OS_Code.zip/ZF2-Book-Code-master/Chapter 6/client" />
     <property name="FullScreen" value="false" />
     <property name="options.lastSelected" value="preferences.keymap" />
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.searchVisible" value="true" />
+    <property name="SearchEverywhereHistory" value="dir" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/module/Admin/src/Admin/Form" />
+      <recent name="$PROJECT_DIR$/module/Admin/view/admin/index" />
       <recent name="$PROJECT_DIR$/module/News/src/News/Entity" />
       <recent name="$PROJECT_DIR$/module/Fish/src/Fish/Form" />
       <recent name="$PROJECT_DIR$/module/Fish/view/fish/index" />
@@ -783,7 +783,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="65" y="-4" width="1535" height="904" extended-state="6" />
+    <frame x="65" y="24" width="1535" height="876" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -823,76 +823,6 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/module/Common/Module.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="780" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="0" selection-start="503" selection-end="503" vertical-scroll-proportion="-12.413794" vertical-offset="0" max-vertical-offset="480" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/module/Common/src/Common/View/Helper/FlashMessenger.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="1" selection-start="682" selection-end="682" vertical-scroll-proportion="-15.862069" vertical-offset="0" max-vertical-offset="580" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/module/Common/config/module.config.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="40" selection-start="557" selection-end="557" vertical-scroll-proportion="-6.206897" vertical-offset="0" max-vertical-offset="1200" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/module/Common/view/layout/layout.phtml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="40" column="41" selection-start="2130" selection-end="2130" vertical-scroll-proportion="-13.793103" vertical-offset="400" max-vertical-offset="1140" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/module/Common/view/common/index/index.phtml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="740" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/module/Common/src/Common/Controller/IndexController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="5" selection-start="616" selection-end="616" vertical-scroll-proportion="-8.965517" vertical-offset="0" max-vertical-offset="420" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/module/Api/Module.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="4" selection-start="350" selection-end="350" vertical-scroll-proportion="-3.4482758" vertical-offset="0" max-vertical-offset="660" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/module/Fish/src/Fish/Form/TextStatusForm.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="45" selection-start="633" selection-end="633" vertical-scroll-proportion="-14.24138" vertical-offset="47" max-vertical-offset="800" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/module/News/Module.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="18" selection-start="674" selection-end="674" vertical-scroll-proportion="-10.344828" vertical-offset="0" max-vertical-offset="520" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/module/News/src/News/Entity/Notice.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="113" column="0" selection-start="1921" selection-end="1921" vertical-scroll-proportion="-19.48276" vertical-offset="1595" max-vertical-offset="2320" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/application.config.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="10" selection-start="371" selection-end="371" vertical-scroll-proportion="-11.034483" vertical-offset="0" max-vertical-offset="500" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/js/jquery.min.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="0" selection-start="93433" selection-end="93433" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="160" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/.htaccess">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="725" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/public/images/avatar.png">
       <provider selected="true" editor-type-id="images">
         <state />
@@ -918,11 +848,6 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/module/Admin/view/admin/index/add-notice.phtml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="0" selection-start="301" selection-end="301" vertical-scroll-proportion="-8.275862" vertical-offset="0" max-vertical-offset="360" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/init_autoloader.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="34" column="25" selection-start="1337" selection-end="1337" vertical-scroll-proportion="-9.068966" vertical-offset="297" max-vertical-offset="980" />
@@ -945,16 +870,12 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/public/css/bootstrap.min.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="44" column="23" selection-start="671" selection-end="671" vertical-scroll-proportion="0.0" vertical-offset="1860" max-vertical-offset="120900">
-          <folding />
-        </state>
+        <state line="44" column="23" selection-start="671" selection-end="671" vertical-scroll-proportion="0.0" vertical-offset="1860" max-vertical-offset="120900" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/public/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="28" selection-start="745" selection-end="745" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="3520">
-          <folding />
-        </state>
+        <state line="20" column="28" selection-start="745" selection-end="745" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="3520" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/public/js/bootstrap.min.js">
@@ -967,44 +888,218 @@
         <state line="3" column="0" selection-start="2395" selection-end="2395" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="160" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/data/logs/apiclient.log">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="753">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/module/Admin/Module.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="0" selection-start="527" selection-end="527" vertical-scroll-proportion="0.0" vertical-offset="400" max-vertical-offset="760">
+        <state line="20" column="0" selection-start="527" selection-end="527" vertical-scroll-proportion="0.0" vertical-offset="400" max-vertical-offset="760" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/module/News/src/News/Entity/News.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="28" column="47" selection-start="495" selection-end="495" vertical-scroll-proportion="-5.5172415" vertical-offset="300" max-vertical-offset="1580">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/module/Fish/src/Fish/Form/AddNoticeForm.php">
+    <entry file="file://$PROJECT_DIR$/module/Admin/src/Admin/Form/TextStatusForm.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="44" column="11" selection-start="1163" selection-end="1163" vertical-scroll-proportion="0.0" vertical-offset="880" max-vertical-offset="1380">
+        <state line="11" column="8" selection-start="215" selection-end="215" vertical-scroll-proportion="-5.965517" vertical-offset="27" max-vertical-offset="780" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/module/Fish/config/module.config.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="35" selection-start="552" selection-end="564" vertical-scroll-proportion="0.0" vertical-offset="300" max-vertical-offset="860" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/logs/apiclient.log">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="120" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/ZF2/library/Zend/File/Transfer/Adapter/ValidatorPluginManager.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="753" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/ZF2/library/Zend/File/Transfer/Adapter/FilterPluginManager.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="753" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/ZF2/library/Zend/File/Transfer/Adapter/AbstractAdapter.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="29920">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/module/News/src/News/Entity/Food.php">
+    <entry file="file://$PROJECT_DIR$/vendor/ZF2/library/Zend/File/Transfer/Exception/RuntimeException.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="30" selection-start="316" selection-end="316" vertical-scroll-proportion="37.103447" vertical-offset="1356" max-vertical-offset="2320">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="753" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/ZF2/library/Zend/Form/Exception/BadMethodCallException.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="729" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/ZF2/library/Zend/File/Transfer/Exception/PhpEnvironmentException.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="729" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/ZF2/library/Zend/Form/Exception/DomainException.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="0" selection-start="426" selection-end="426" vertical-scroll-proportion="0.22099447" vertical-offset="0" max-vertical-offset="724" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/ZF2/library/Zend/File/Transfer/Exception/InvalidArgumentException.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="729" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/ZF2/library/Zend/File/Transfer/Exception/ExceptionInterface.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="753" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/ZF2/library/Zend/File/Transfer/Exception/BadMethodCallException.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="729" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/ZF2/library/Zend/Form/Element/File.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="41" column="55" selection-start="1169" selection-end="1169" vertical-scroll-proportion="0.49197862" vertical-offset="272" max-vertical-offset="1020" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/ZF2/library/Zend/File/Transfer/Adapter/Http.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="172" column="63" selection-start="5462" selection-end="5462" vertical-scroll-proportion="0.0" vertical-offset="3440" max-vertical-offset="9420">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/module/Fish/view/fish/index/add-notice.phtml">
+    <entry file="file://$PROJECT_DIR$/public/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="0" selection-start="301" selection-end="301" vertical-scroll-proportion="-8.275862" vertical-offset="0" max-vertical-offset="360">
+        <state line="5" column="0" selection-start="124" selection-end="148" vertical-scroll-proportion="0.0" vertical-offset="100" max-vertical-offset="480">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/module/Admin/view/admin/index/add-article.phtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="32" selection-start="168" selection-end="168" vertical-scroll-proportion="-3.4482758" vertical-offset="0" max-vertical-offset="220">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/module/News/src/News/Entity/Article.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="90" column="20" selection-start="1561" selection-end="1561" vertical-scroll-proportion="-15.310345" vertical-offset="1256" max-vertical-offset="1980">
+        <state line="78" column="35" selection-start="1416" selection-end="1416" vertical-scroll-proportion="-18.37931" vertical-offset="927" max-vertical-offset="1980">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/module/Admin/src/Admin/Form/AddNoticeForm.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="41" column="36" selection-start="1150" selection-end="1150" vertical-scroll-proportion="-11.172414" vertical-offset="476" max-vertical-offset="1200">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/module/Admin/view/admin/index/add-notice.phtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="39" selection-start="175" selection-end="175" vertical-scroll-proportion="-3.4482758" vertical-offset="0" max-vertical-offset="220">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/module/Admin/src/Admin/Form/AddNewsForm.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="30" column="11" selection-start="809" selection-end="809" vertical-scroll-proportion="-19.310345" vertical-offset="0" max-vertical-offset="1560">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/module/Admin/src/Admin/Form/AddArticleForm.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="28" column="14" selection-start="714" selection-end="714" vertical-scroll-proportion="-13.103448" vertical-offset="180" max-vertical-offset="1120">
+          <folding>
+            <element signature="e#29#51#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/module/Admin/view/admin/index/add.phtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="9" selection-start="145" selection-end="145" vertical-scroll-proportion="-3.4482758" vertical-offset="0" max-vertical-offset="220">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/module/Admin/config/module.config.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="26" column="74" selection-start="936" selection-end="936" vertical-scroll-proportion="-13.793103" vertical-offset="0" max-vertical-offset="680">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/module/Admin/view/admin/index/add-food.phtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="753">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/module/Admin/src/Admin/Form/AddFoodForm.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="29" column="11" selection-start="777" selection-end="777" vertical-scroll-proportion="-13.24138" vertical-offset="196" max-vertical-offset="1280">
+          <folding>
+            <element signature="e#29#51#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/module/News/src/News/Entity/Food.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="94" column="5" selection-start="1582" selection-end="1582" vertical-scroll-proportion="-28.275862" vertical-offset="960" max-vertical-offset="2320">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/module/Api/src/Api/Client/ApiClient.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="122" column="5" selection-start="3404" selection-end="3404" vertical-scroll-proportion="-13.931034" vertical-offset="1936" max-vertical-offset="3680">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/module/Admin/view/admin/index/add-common-img.phtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="753">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/module/Admin/src/Admin/Form/AddCommonImgForm.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="31" column="26" selection-start="834" selection-end="834" vertical-scroll-proportion="-13.103448" vertical-offset="240" max-vertical-offset="1280">
+          <folding>
+            <element signature="e#29#51#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/module/Admin/view/admin/index/index.phtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="55" column="33" selection-start="1013" selection-end="1013" vertical-scroll-proportion="-37.931034" vertical-offset="0" max-vertical-offset="1420">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/module/News/src/News/Entity/Img.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="21" column="30" selection-start="345" selection-end="345" vertical-scroll-proportion="-11.034483" vertical-offset="0" max-vertical-offset="2680">
           <folding />
         </state>
       </provider>
@@ -1016,119 +1111,26 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/module/News/src/News/Entity/News.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="28" column="47" selection-start="495" selection-end="495" vertical-scroll-proportion="-5.5172415" vertical-offset="300" max-vertical-offset="1580">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/module/Api/src/Api/Client/ApiClient.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="91" column="37" selection-start="2433" selection-end="2433" vertical-scroll-proportion="-43.206898" vertical-offset="467" max-vertical-offset="3320">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/module/Fish/view/fish/index/index.phtml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="13" selection-start="493" selection-end="493" vertical-scroll-proportion="-10.344828" vertical-offset="0" max-vertical-offset="1500">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/module/Admin/src/Admin/Form/TextStatusForm.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="8" selection-start="215" selection-end="215" vertical-scroll-proportion="-5.965517" vertical-offset="27" max-vertical-offset="780">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/module/News/src/News/Entity/Img.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="30" selection-start="345" selection-end="345" vertical-scroll-proportion="-14.4827585" vertical-offset="0" max-vertical-offset="2780">
-          <folding>
-            <element signature="e#6#83#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/module/Admin/src/Admin/Form/AddNoticeForm.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="4" selection-start="33" selection-end="33" vertical-scroll-proportion="-0.6896552" vertical-offset="40" max-vertical-offset="1360">
+        <state line="60" column="17" selection-start="1210" selection-end="1210" vertical-scroll-proportion="-16.689655" vertical-offset="716" max-vertical-offset="1520">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/module/Fish/src/Fish/Controller/IndexController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="23" selection-start="548" selection-end="548" vertical-scroll-proportion="24.689655" vertical-offset="916" max-vertical-offset="2120">
-          <folding>
-            <marker date="1420707281951" expanded="true" signature="2636:3005" placeholder="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/module/Fish/config/module.config.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="35" selection-start="552" selection-end="564" vertical-scroll-proportion="-6.206897" vertical-offset="0" max-vertical-offset="740">
+        <state line="16" column="26" selection-start="565" selection-end="586" vertical-scroll-proportion="-6.8965516" vertical-offset="0" max-vertical-offset="2100">
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/module/Admin/config/module.config.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="50" selection-start="568" selection-end="568" vertical-scroll-proportion="-6.206897" vertical-offset="0" max-vertical-offset="680">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/module/Admin/view/admin/index/index.phtml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="57" column="17" selection-start="1058" selection-end="1058" vertical-scroll-proportion="-23.586206" vertical-offset="456" max-vertical-offset="1360">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/module/Fish/view/fish/index/add.phtml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="0" selection-start="107" selection-end="179" vertical-scroll-proportion="-2.7586207" vertical-offset="0" max-vertical-offset="360">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/module/Admin/view/admin/index/add.phtml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="2" selection-start="294" selection-end="294" vertical-scroll-proportion="-10.344828" vertical-offset="0" max-vertical-offset="460">
-          <folding>
-            <element signature="e#6#84#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/module/Admin/src/Admin/Controller/IndexController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="122" column="56" selection-start="4004" selection-end="4004" vertical-scroll-proportion="-20.0" vertical-offset="1740" max-vertical-offset="3220">
+        <state line="107" column="32" selection-start="3243" selection-end="3243" vertical-scroll-proportion="0.6469761" vertical-offset="1680" max-vertical-offset="6300">
           <folding>
-            <element signature="e#359#388#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/module/Fish/src/Fish/Form/AddNewsForm.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="78" column="5" selection-start="1928" selection-end="2101" vertical-scroll-proportion="-19.448277" vertical-offset="996" max-vertical-offset="1720">
-          <folding>
-            <element signature="e#28#50#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/module/Admin/src/Admin/Form/AddNewsForm.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="57" column="36" selection-start="1641" selection-end="1641" vertical-scroll-proportion="0.3314917" vertical-offset="900" max-vertical-offset="1720">
-          <folding>
-            <element signature="e#29#51#0" expanded="true" />
+            <element signature="e#6#328#0" expanded="true" />
+            <element signature="e#359#391#0" expanded="true" />
           </folding>
         </state>
       </provider>

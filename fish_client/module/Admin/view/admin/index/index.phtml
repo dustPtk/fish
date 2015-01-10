@@ -51,7 +51,7 @@ foreach($foodData as $v){
 img
 <br/>
 <?php
-foreach($imgData as $v){
+foreach($commonImgData as $v){
     echo $v->getImgName().'___';
     echo $v->getImgIntro().'___';
     echo $v->getImgDate().'___';
@@ -60,3 +60,6 @@ foreach($imgData as $v){
 ?>
 <a href="<?php echo $this->url('admin',array('action'=>'add'));?>">add news</a>
 <a href="<?php echo $this->url('admin',array('action'=>'addNotice'));?>">add notice</a>
+<a href="<?php echo $this->url('admin',array('action'=>'addArticle'));?>">add notice</a>
+<a href="<?php echo $this->url('admin',array('action'=>'addFood'));?>">add food</a>
+<a href="<?php echo $this->url('admin',array('action'=>'addCommonImg'));?>">add commonImg</a>

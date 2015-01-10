@@ -1,27 +1,41 @@
 <?php
-namespace Wall\Forms;
+namespace Admin\Form;
 
 use Zend\Form\Element;
 use Zend\Form\Form;
 
-class TextStatusForm extends Form
+class AddArticleForm extends Form
 {
     public function __construct($name = null)
     {
         parent::__construct('text-content');
-        
+
         $this->setAttribute('method', 'post');
-        $this->setAttribute('class', 'well input-append');
-        
+
         $this->add(array(
-            'name' => 'status',
+            'name' => 'article_name',
+            'type'  => 'text',
+            'attributes' => array(
+                'class' => 'span11',
+                'placeholder' => 'name'
+            ),
+        ));
+        $this->add(array(
+            'name' => 'article_editor',
+            'type'  => 'text',
+            'attributes' => array(
+                'class' => 'span11',
+                'placeholder' => 'editor'
+            ),
+        ));
+        $this->add(array(
+            'name' => 'article_content',
             'type'  => 'Zend\Form\Element\Textarea',
             'attributes' => array(
                 'class' => 'span11',
                 'placeholder' => 'How are you?'
             ),
         ));
-        $this->add(new Element\Csrf('csrf'));
         $this->add(array(
             'name' => 'submit',
             'attributes' => array(
@@ -31,4 +45,6 @@ class TextStatusForm extends Form
             ),
         ));
     }
+
+
 }

@@ -8,9 +8,6 @@
  */
 
 namespace Fish\Controller;
-
-use Fish\Form\AddNewsForm;
-use Fish\Form\AddNoticeForm;
 use Zend\Mvc\Controller\AbstractActionController;
 use Zend\Stdlib\Hydrator\ClassMethods;
 use News\Entity\News;
@@ -40,9 +37,11 @@ class IndexController extends AbstractActionController
 
         $responseNews1 = ApiClient::getWall();
         if ($responseNews1 !== FALSE) {
-            foreach($responseNews1['img'] as $k=>$v){
-                $hydrator = new ClassMethods();
-                $img[$k] = $hydrator->hydrate($v, new Img());
+            foreach($responseNews1 as $k=>$v){
+                if(array_key_exists('img',$responseNews1[$k])){
+                    $hydrator = new ClassMethods();
+                    $img[$k] = $hydrator->hydrate($responseNews1[$k]['img'][0], new Img());
+                }
             }
         } else {
             $this->getResponse()->setStatusCode(404);
@@ -56,7 +55,7 @@ class IndexController extends AbstractActionController
                 $notice[$k] = $hydrator->hydrate($v,new Notice());
             }
         }else{
-            $this->getResponse()->seStatusCOde(404);
+            $this->getResponse()->seStatusCode(404);
             return ;
         }
 
@@ -67,39 +66,39 @@ class IndexController extends AbstractActionController
                 $article[$k] = $hydrator->hydrate($v,new Article());
             }
         }else{
-            $this->getResponse()->seStatusCOde(404);
+            $this->getResponse()->seStatusCode(404);
             return ;
         }
 
 
         $responseFood = ApiClient::getFood();
         if($responseFood !== FALSE){
-            foreach($responseFood as $k => $v){
+            foreach($responseFood['result'] as $k => $v){
                 $hydrator = new ClassMethods();
                 $food[$k] = $hydrator->hydrate($v,new Food());
+            }
+        }else{
+            $this->getResponse()->seStatusCode(404);
+            return ;
+        }
+
+        $responseImg = ApiClient::getImg();
+        if($responseImg !== FALSE){
+            foreach($responseImg['result'] as $k => $v){
+                $hydrator = new ClassMethods();
+                $commonImg[$k] = $hydrator->hydrate($v,new CommonImg());
             }
         }else{
             $this->getResponse()->seStatusCOde(404);
             return ;
         }
 
-
-//        $responseImg = ApiClient::getImg();
-//        if($responseImg !== FALSE){
-//            foreach($responseImg as $k => $v){
-//                $hydrator = new ClassMethods();
-//                $img[$k] = $hydrator->hydrate($v,new Img());
-//            }
-//        }else{
-//            $this->getResponse()->seStatusCOde(404);
-//            return ;
-//        }
-
         $viewData['newsData'] = $news;
         $viewData['noticeData'] = $notice;
         $viewData['articleData'] = $article;
         $viewData['foodData'] = $food;
         $viewData['imgData'] = $img;
+        $viewData['commonImgData'] = $commonImg;
         return $viewData;
     }
 

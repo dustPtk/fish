@@ -98,11 +98,29 @@ class ApiClient {
         return self::doRequest($url,$data,Request::METHOD_POST);
     }
 
-    public static function createNotice($data){
+    public static function createNotice($data)
+    {
         $url = self::$endpointHost . sprintf(self::$endpointNoticeCre);
         return self::doRequest($url,$data,Request::METHOD_POST);
     }
 
+    public static function createArticle($data)
+    {
+        $url = self::$endpointHost.sprintf(self::$endpointArticleCre);
+        return self::doRequest($url,$data,Request::METHOD_POST);
+    }
+
+    public static function createImg($data)
+    {
+        $url = self::$endpointHost . sprintf(self::$endpointImgCre);
+        return self::doRequest($url,$data,Request::METHOD_POST);
+    }
+
+    public static function createFood($data)
+    {
+        $url = self::$endpointHost.sprintf(self::$endpointFoodCre);
+        return self::doRequest($url,$data,Request::METHOD_POST);
+    }
     /**
      * Perform an API request to post content on the wall of an specific news
      *

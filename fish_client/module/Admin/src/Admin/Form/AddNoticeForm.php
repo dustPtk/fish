@@ -12,7 +12,7 @@ class AddNoticeForm extends Form
 
         $this->setAttribute('method', 'post');
         $this->add(array(
-            'name' => 'name',
+            'name' => 'notice_name',
             'type'  => 'text',
             'attributes' => array(
                 'class' => 'span11',
@@ -20,7 +20,7 @@ class AddNoticeForm extends Form
             ),
         ));
         $this->add(array(
-            'name' => 'editor',
+            'name' => 'notice_editor',
             'type'  => 'text',
             'attributes' => array(
                 'class' => 'span11',
@@ -28,15 +28,7 @@ class AddNoticeForm extends Form
             ),
         ));
         $this->add(array(
-            'name' => 'date',
-            'type'  => 'text',
-            'attributes' => array(
-                'class' => 'span11',
-                'placeholder' => 'date'
-            ),
-        ));
-        $this->add(array(
-            'name' => 'status',
+            'name' => 'notice_status',
             'type'  => 'text',
             'attributes' => array(
                 'class' => 'span11',
@@ -44,7 +36,7 @@ class AddNoticeForm extends Form
             ),
         ));
         $this->add(array(
-            'name' => 'content',
+            'name' => 'notice_content',
             'type'  => 'Zend\Form\Element\Textarea',
             'attributes' => array(
                 'class' => 'span11',

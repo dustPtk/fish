@@ -12,8 +12,9 @@ class AddNewsForm extends Form  implements InputFilterProviderInterface
         parent::__construct('text-content');
 
         $this->setAttribute('method', 'post');
+
         $this->add(array(
-            'name' => 'name',
+            'name' => 'news_name',
             'type'  => 'text',
             'attributes' => array(
                 'class' => 'span11',
@@ -21,7 +22,7 @@ class AddNewsForm extends Form  implements InputFilterProviderInterface
             ),
         ));
         $this->add(array(
-            'name' => 'editor',
+            'name' => 'news_editor',
             'type'  => 'text',
             'attributes' => array(
                 'class' => 'span11',
@@ -29,15 +30,7 @@ class AddNewsForm extends Form  implements InputFilterProviderInterface
             ),
         ));
         $this->add(array(
-            'name' => 'date',
-            'type'  => 'text',
-            'attributes' => array(
-                'class' => 'span11',
-                'placeholder' => 'date'
-            ),
-        ));
-        $this->add(array(
-            'name' => 'status',
+            'name' => 'news_status',
             'type'  => 'text',
             'attributes' => array(
                 'class' => 'span11',
@@ -52,7 +45,7 @@ class AddNewsForm extends Form  implements InputFilterProviderInterface
             ),
         ));
         $this->add(array(
-            'name' => 'content',
+            'name' => 'news_content',
             'type'  => 'Zend\Form\Element\Textarea',
             'attributes' => array(
                 'class' => 'span11',
@@ -69,10 +62,11 @@ class AddNewsForm extends Form  implements InputFilterProviderInterface
         ));
     }
 
+
     public function getInputFilterSpecification()
     {
         return array(
-            'img' => array(
+            'image' => array(
                 'required' => true,
             )
         );

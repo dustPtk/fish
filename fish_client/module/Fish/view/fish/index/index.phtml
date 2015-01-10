@@ -2,23 +2,16 @@
 news<br/>
 <?php
     foreach($newsData as $v){
-        echo $v->getNewsName() .'___';
-        echo $v->getNewsContent() .'___' ;
-        echo $v->getNewsEditor() .'___' ;
-        echo $v->getNewsDate() ;
+        echo $v->getNewsName().'<br/>';
         foreach($imgData as $v1){
             if($v->getId()==$v1->getImgNewsId())
             {
-                echo $v1->getImgName().'___';
-                echo $v1->getImgIntro();
-                echo '<br/>';
-                echo "<img src=\"".$v1->getImgUrlMax()."\">";
+                $temp = substr($v1->getImgUrlMax(),7);
+                echo "<img src=\"".$temp."\">".'<br/>';
             }
         }
-        echo '<br/>';
     }
 ?>
-
 <br/>
 <br/>
 notice<br/>
@@ -53,6 +46,8 @@ foreach($foodData as $v){
     echo $v->getFoodIntro().'___';
     echo $v->getFoodDate().'___';
     echo '<br/>';
+    $temp = substr($v->getFoodImgMax(),7);
+    echo "<img src=\"".$temp."\">".'<br/>';
 }
 ?>
 
@@ -60,10 +55,16 @@ foreach($foodData as $v){
 img
 <br/>
 <?php
-foreach($imgData as $v){
+foreach($commonImgData as $v){
     echo $v->getImgName().'___';
     echo $v->getImgIntro().'___';
-    echo $v->getImgUrlMax();
     echo '<br/>';
+    $temp = substr($v->getImgUrlMax(),7);
+    echo "<img src=\"".$temp."\">".'<br/>';
 }
+?>
+<?php
+$temp = dirname(__FILE__);
+$temp1 = substr($temp,0,23);
+
 ?>
