@@ -17,16 +17,17 @@ class SendNewsController extends AbstractRestfulController{
     public function create($data)
     {
         $newsTable = $this->getNewsTable();
-        $news_date= time();
+        $news_date= date('Y-m-d H:i:s',time());
         try{
               if(array_key_exists('img',$data))
              {
                  $rs= $newsTable->createNews($news_date,$data['news_name'],$data['news_editor'],$data['news_content']);
                  $news = $newsTable->getNewsByName($data['news_name']);
                  $imgTable = $this->getImgTable();
-                 $img_url_max = sprintf('public/images/%s.png',sha1(uniqid('max'.$news_date,true)));
-                 $img_url_min = sprintf('public/images/%s.png',sha1(uniqid('min'.$news_date,true)));
-                 $img = $imgTable->createImg($img_url_max,$img_url_min,$news['id']);
+                 //$img_url_max = sprintf('public/images/%s.png',sha1(uniqid('max'.$news_date,true)));
+                 //$img_url_max = sprintf('data/tmp/%s',sha1(uniqid($news_date, true)));
+                 //$img_url_min = sprintf('public/images/%s.png',sha1(uniqid('min'.$news_date,true)));
+                 $img = $imgTable->createImg($data['img_max'],$data['img_min'],$news['id']);
 //                 foreach($data as $v){
 //                    $temp = array(
 //                        'img_news_id'=>$news['id']

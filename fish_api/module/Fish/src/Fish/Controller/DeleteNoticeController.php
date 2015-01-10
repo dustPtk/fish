@@ -22,7 +22,9 @@ class DeleteNoticeController extends AbstractRestfulController{
                 'result'=>$noticeTable->deleteNoticeById($id),
             ));
         }catch (\Exception $e){
-            throw new \Exception('not found',404);
+            return new JsonModel(array(
+                'result'=>false
+            ));
         }
 
     }

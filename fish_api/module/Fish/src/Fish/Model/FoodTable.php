@@ -34,8 +34,8 @@ class FoodTable extends AbstractTableGateway implements AdapterAwareInterface{
             'food_name'=>$food_name,
             'food_date'=>$food_date,
             'food_intro'=>$food_intro,
-            'food_url_max'=>$food_img_max,
-			'food_url_min'=>$food_img_min,
+            'food_img_max'=>$food_img_max,
+			'food_img_min'=>$food_img_min,
         ));
     }
 	

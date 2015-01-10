@@ -17,10 +17,10 @@ class SendNoticeController extends AbstractRestfulController{
     public function create($data)
     {
         $noticeTable = $this->getNoticeTable();
-        $noticeDate = Time();
-
+        $noticeDate = date('Y-m-d H:i:s',time());
         return new JsonModel(array(
-            'result'=>$noticeTable->createNotice($noticeDate,$data['notice_name'],$data['notice_content'],$data['notice_editor']),
+            'result'=>$noticeTable->createNotice($noticeDate,$data['notice_name'],$data['notice_content'],
+                    $data['notice_editor'],$data['notice_status']),
         ));
     }
 

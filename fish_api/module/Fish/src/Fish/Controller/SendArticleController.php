@@ -16,10 +16,9 @@ class SendArticleController extends AbstractRestfulController{
     public function create($data)
     {
         $articleTable = $this->getArticleTable();
-        $article_date= time();
+        $article_date= date('Y-m-d H:i:s',time());
         try{
 			 $rs= $articleTable->createArticle($article_date,$data['article_name'],$data['article_editor'],$data['article_content']);
-			 
 			 $result = new JsonModel(array(
 				 'result'=>$rs,
 			 ));

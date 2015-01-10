@@ -65,7 +65,7 @@ return array(
             'Fish_delete_notice'=>array(
                 'type'=>'Segment',
                 'options'=>array(
-                    'route'=>'/api/delete/notice[/:id]',
+                    'route'=>'/api/notice/delete[/:id]',
                     'defaults'=>array(
                         'controller'=>'Fish\Controller\DeleteNoticeController',
                     )
@@ -93,7 +93,7 @@ return array(
             'Fish_delete_article'=>array(
                 'type'=>'Segment',
                 'options'=>array(
-                    'route'=>'/api/delete/article[/:id]',
+                    'route'=>'/api/article/delete[/:id]',
                     'defaults'=>array(
                         'controller'=>'Fish\Controller\DeleteArticleController',
                     )
@@ -121,7 +121,7 @@ return array(
             'Fish_delete_img'=>array(
                 'type'=>'Segment',
                 'options'=>array(
-                    'route'=>'/api/delete/img[/:id]',
+                    'route'=>'/api/img/delete[/:id]',
                     'defaults'=>array(
                         'controller'=>'Fish\Controller\DeleteImgController',
                     )
@@ -149,13 +149,12 @@ return array(
             'Fish_delete_food'=>array(
                 'type'=>'Segment',
                 'options'=>array(
-                    'route'=>'/api/delete/food[/:id]',
+                    'route'=>'/api/food/delete[/:id]',
                     'defaults'=>array(
                         'controller'=>'Fish\Controller\DeleteFoodController',
                     )
                 ),
             ),
-
         ),
     ),
 
@@ -164,12 +163,22 @@ return array(
             'Fish\Controller\ShowNewsController'=>'Fish\Controller\ShowNewsController',
             'Fish\Controller\SendNewsController'=>'Fish\Controller\SendNewsController',
             'Fish\Controller\DeleteNewsController'=>'Fish\Controller\DeleteNewsController',
+
             'Fish\Controller\ShowNoticeController'=>'Fish\Controller\ShowNoticeController',
             'Fish\Controller\SendNoticeController'=>'Fish\Controller\SendNoticeController',
             'Fish\Controller\DeleteNoticeController'=>'Fish\Controller\DeleteNoticeController',
+
             'Fish\Controller\ShowArticleController'=>'Fish\Controller\ShowArticleController',
+            'Fish\Controller\DeleteArticleController'=>'Fish\Controller\DeleteArticleController',
+            'Fish\Controller\SendArticleController'=>'Fish\Controller\SendArticleController',
+
             'Fish\Controller\ShowFoodController'=>'Fish\Controller\ShowFoodController',
+            'Fish\Controller\DeleteFoodController'=>'Fish\Controller\DeleteFoodController',
+            'Fish\Controller\SendFoodController'=>'Fish\Controller\SendFoodController',
+
             'Fish\Controller\ShowImgController'=>'Fish\Controller\ShowImgController',
+            'Fish\Controller\DeleteImgController'=>'Fish\Controller\DeleteImgController',
+            'Fish\Controller\SendImgController'=>'Fish\Controller\SendImgController',
 
         ),
     ),

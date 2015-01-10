@@ -22,7 +22,9 @@ class DeleteFoodController extends AbstractRestfulController{
                 'result'=>$foodTable->deleteFoodById($id),
             ));
         }catch (\Exception $e){
-            throw new \Exception('not found',404);
+           return new JsonModel(array(
+               'result'=>false,
+           ));
         }
 
     }

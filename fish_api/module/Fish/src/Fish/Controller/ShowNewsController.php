@@ -22,10 +22,10 @@ class ShowNewsController extends  AbstractRestfulController{
 
         $newsInfo = $newsTable->getNewsList()->toArray();
 
-        foreach($newsInfo as $v){
+        foreach($newsInfo as $k=>$v){
             $imgInfo = $imgTable->getImgByNewsId($v['id'])->toArray();
             if(count($imgInfo)>0){
-                $newsInfo['img'] = $imgInfo;
+                $newsInfo[$k]['img'] = $imgInfo;
             }
         }
 

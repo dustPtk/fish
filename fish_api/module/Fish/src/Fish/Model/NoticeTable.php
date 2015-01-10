@@ -21,14 +21,14 @@ class NoticeTable extends AbstractTableGateway implements AdapterAwareInterface{
         $this->initialize();
     }
 
-    public function createNotice($notice_date,$notice_name,$notice_content,$notice_editor)
+    public function createNotice($notice_date,$notice_name,$notice_content,$notice_editor,$notice_status)
     {
         return $this->insert(array(
             'notice_name' => $notice_name,
             'notice_editor'=> $notice_editor,
             'notice_date' => $notice_date,
             'notice_content'=>$notice_content,
-            'notice_status'=>0,
+            'notice_status'=>$notice_status,
         ));
     }
 

@@ -28,11 +28,11 @@ class DeleteImgController extends AbstractRestfulController{
     }
     public function getImgTable()
     {
-        if(!$this->imgTable){
+        if(!$this->fishCommonTable){
             $sm = $this->getServiceLocator();
-            $this->imgTable = $sm->get('Fish\Model\CommonImgTable');
+            $this->fishCommonTable = $sm->get('Fish\Model\CommonImgTable');
         }
-        return $this->imgTable;
+        return $this->fishCommonTable;
     }
 
 }

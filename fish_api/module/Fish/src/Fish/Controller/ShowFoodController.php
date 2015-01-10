@@ -20,9 +20,13 @@ class ShowFoodController extends  AbstractRestfulController{
 
         $foodInfo = $foodTable->getFoodList()->toArray();
         if($foodInfo !== false){
-            return new JsonModel($foodInfo);
+            return new JsonModel(array(
+                'result'=>$foodInfo
+            ));
         }else{
-            throw new \Exception('could not find status',404);
+            return new JsonModel(array(
+                'result'=>false
+            ));
         }
     }
 

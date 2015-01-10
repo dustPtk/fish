@@ -18,7 +18,16 @@ class ShowImgController extends AbstractRestfulController{
     {
         $imgTable = $this->getImgTable();
         $imgInfo= $imgTable->getImgList()->toArray();
-        return new JsonModel($imgInfo);
+        if($imgInfo !== false ){
+            return new JsonModel(array(
+                'result'=>$imgInfo
+            ));
+        }else{
+            return new JsonModel(array(
+                'result'=>false
+            ));
+        }
+
     }
 
     public function getImgTable()
